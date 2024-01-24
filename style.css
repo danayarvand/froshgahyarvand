@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(71, 71, 71);
+    padding: 0;
+    margin: 0;
+}
+
+#imgred {
+    height: 100%;
+    width: 100%;
+}
+.conteiner1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 12px 128px 12px 128px;
+}
+
+.conteiner2 {
+    display: flex;
+    flex-direction: row; 
+    padding: 5px ;
+}
+
+#logo {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: vazirmatn;
+    padding: 0px 16px 10px 16px;
+    padding-top: 5px;
+}
+
+#search {
+    margin:auto;
+    background-color: #f0f0f1;
+    padding: 10px 50px 14px 500px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family:vazirmatn;
+    text-decoration: none;
+}
+.conteiner3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 142px 0px 128px;
+}
+.conteiner5 {
+    display: flex;
+    flex-direction: row;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.head1 {
+    font-family:vazirmatn;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-bottom: 100px;
+    border-left: solid 1px;
+    text-decoration: none;
+}
+
+.cat {
+    border-left: solid 1px;
+    font-family:vazirmatn;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding-right: 5px;
+    padding-left: 20px;
+    margin-bottom: 100px;
+
+
+}
+
+.cafsh1 {
+    background-color: #3a3a3a;
+    border: solid 1px;
+    padding: 1px;
+    margin-left: 93px;
+    height: 200px;
+    width: 200px;
+}
+
+td {
+    padding: auto;;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: vazir;
+    text-align: right;
+}
+
+#dsd {
+    color: #ffffff;
+    margin-right: 70px;
+}
+.frf {
+    background-color: rgb(19, 19, 19);
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-left: 88px;
+    color: #c9c9c9;
+}
+
+.navi {
+    direction: rtl;
+    list-style: none;
+    margin: 0;
+}
+
+.navi li {
+    direction: rtl;
+    padding: 20px 15px;
+    position: relative;
+}
+
+.navi li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.drop {
+    list-style: none;
+    position: absolute;
+    right: 0;
+    background-color: #0000007a;
+    border-radius: 5px;
+    height: 0px;
+    transition: 0.3s;
+    visibility: hidden;
+    padding: 20px;
+
+}
+
+.navi li:hover .drop {
+    border-radius: 5px;
+    height: 130px;
+    visibility: visible;
+}
+
+.drop li {
+    padding: 5px;
+}
+
+.dani {
+    direction: rtl;
+    font-family: vazirmatn;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 15px;
+}
+
+.rtrr {
+    text-decoration: none;
+}
